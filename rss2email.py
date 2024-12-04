@@ -14,7 +14,7 @@ RSS_FEED_URLS = {
     "https://fenix.tecnico.ulisboa.pt/disciplinas/CC11/2024-2025/1-semestre/rss/summary": "CC Summary",
     "https://fenix.tecnico.ulisboa.pt/disciplinas/CCEIC11/2024-2025/1-semestre/rss/announcement": "CCEIC-I",
     "https://fenix.tecnico.ulisboa.pt/disciplinas/ARC11/2024-2025/1-semestre/anuncios":"CRC",
-    "https://fenix.tecnico.ulisboa.pt/disciplinas/ALC11/2024-2025/1-semestre/rss/announcement":"ALC"
+    "https://fenix.tecnico.ulisboa.pt/disciplinas/ALC11/2024-2025/1-semestre/rss/announcement":"ALC",
 }
 # ALC, LN e CRC
 
