@@ -34,10 +34,10 @@ jobs:
         run: python rss2email.py
 
       - name: Upload seen posts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: seen_posts
-          path: seen_posts.txt
+          path: ./seen_posts.txt
           if-no-files-found: warn
 
       - name: Commit and push updates to seen_posts.txt (if changes detected)
