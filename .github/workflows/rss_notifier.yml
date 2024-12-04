@@ -31,7 +31,7 @@ jobs:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
           SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
           RECEIVER_EMAIL: ${{ secrets.RECEIVER_EMAIL }}
-        run: python rss_notifier.py
+        run: python rss2email.py
 
       - name: Upload seen posts
         uses: actions/upload-artifact@v3
